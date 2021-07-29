@@ -1,0 +1,490 @@
+* {
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: floralwhite;
+}
+
+ul {
+  list-style-type: none;
+  padding: 1em;
+  overflow: hidden;
+ 
+  
+}
+li {
+  display: inline;
+
+
+}
+
+li a {
+  text-decoration: none;
+  background-color: floralwhite;
+  color: black;
+  font-size: 1em;
+  padding: 1em;
+
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+li a:hover {
+  background-color: gold
+}
+  
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 40vh; 
+  overflow: hidden;
+}
+.video-container video {
+  /* Make video to at least 100% wide and tall */
+  min-width: 100%; 
+  min-height: 50%; 
+
+  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+  width: auto;
+  height: auto;
+
+  /* Center the video */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+  font-size: 28px;
+  padding: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h3 {
+  font-size: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+h6 {
+  font-size: 18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h4 {
+  font-size: 32px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+  margin: auto;
+  width: 80%;
+  font-size: 70px;
+  overflow: auto;
+  text-shadow: 1px 1px 1px #ccc;
+  font-family:  Georgia, 'Times New Roman', Times, serif;
+  filter: none;
+
+  </style>
+
+}
+
+#homep {
+  float: left;
+  max-width: 65%;
+  margin-width: 3px;
+  padding-top: 20px;
+  text-align: center;
+ 
+}
+
+#quote1 {
+  position: relative;
+  float: right;
+  width: 35%; 
+  margin-width: 3px;
+  margin-top: 6px;
+  text-align: center;
+  color: rgb(80, 80, 80);
+  border: 3px gray solid;
+  box-shadow: 5px 10px;
+  padding: 3px;
+
+}
+
+#fact {
+  color: dimgrey;
+}
+
+#quote {
+  color: dimgrey;
+}
+
+#nelson {
+  font-size: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#top {
+  padding: 30px;
+  margin-bottom: 30px;
+  height: 150px;
+}
+
+#stat1 {
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+  margin-top: 4%;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom: 5%;
+  max-width: 100%;
+  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#home1 {
+  font-size: 200%;
+  color: rgb(80, 80, 80);
+
+}
+
+#home2 {
+  font-size: 280%;
+}
+
+
+
+.super {
+  vertical-align: super;
+  font-size: 15px;
+}
+.container {
+  position: relative;
+  padding-top: 10px;
+  width: 31%;
+  display: inline-block;
+  float: left;
+  padding: 3px;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+.image {
+  opacity: 1;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: transparent;
+  color: black;
+  font-weight: bold;
+  font-size: 90%;
+  padding: 16px 32px;
+  cursor: pointer;
+  text-align: center justify;
+}
+
+a:link {
+  text-decoration: none;
+  margin: auto;
+  width: 100%
+}
+
+a:visited {
+  text-decoration: auto;
+}
+.call {
+  position: relative;
+  border: 5px solid gold;
+  text-align: center;
+  display: inline-block;
+  padding: 1px;
+  margin: 20%;
+  margin-bottom: 2%;
+  margin-top: 5%;
+  font-size: 300%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+#who {
+  text-align: center;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  float: right;
+  margin: 5px;
+}
+
+.circle img {
+  width: 100%;
+  height: auto;
+}
+
+
+#profile {
+  text-align: center;
+  display: inline-block;
+}
+
+
+#LApic {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+#LaAmistad {
+  border: black 3px solid;
+  display: block;
+  margin: auto;
+  width: 30%;
+  padding: 10px;
+
+}
+#LaAmistad:hover {
+  border: gold solid 3px;
+}
+
+//Learn More page//
+
+.moreHeader{
+  width:100%;
+  max-height: 200px;
+  overflow:hidden;
+}
+
+.moreHeader img {
+  height: 400px;
+  width: 100%;
+}
+.equality {
+  width:100%;
+  height: 20%;
+  display: inline-block;
+}
+
+#learnMore {
+  text-align: center;
+  font-size: 60px;
+  padding-top: 2%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.morePage {
+  margin-right: 5%;
+  margin-left: 5%;
+  text-align: center;
+}
+
+
+#graph {
+  display: inline-block;
+  width: 30%;
+  height: auto;
+  margin: 10px;
+  border: rgb(255, 187, 0) 10px solid;
+  box-shadow: 5px 10px  sandybrown;
+}
+
+#topp{
+  font-size: 32px;
+  max-width: 100%;
+  display: inline;
+  text-align: center;
+}
+
+#pcontainer {
+  height: 10%;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+
+#statBtn {
+  background-color: gold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black;
+  padding: 10px;
+  font-size: 35px;
+  border-radius: 20px; 
+  text-align: center;
+  display: block;
+  margin: auto;
+  border: gray 1px solid;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#statBtn:hover {
+  background-color: goldenrod;
+}
+
+#student {
+  background-color: gold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-radius: 20px;
+  border: gray 1px solid;
+  font-size: 35px;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  display: block;
+  margin:auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#student:hover {
+  background-color: darkgoldenrod;
+}
+
+#quotes {
+  color: blue;
+}
+
+#paragraph {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+#ResourcesSub {
+  font-size: 25px;
+}
+.res {
+  width: 50%;
+  float: left;
+}
+
+.res ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.res li a {
+  display: block;
+}
+
+
+//Get Involved Link//
+
+
+#involvedbody {
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+#change {
+  text-align: center;
+  margin: auto;
+}
+
+#ideas {
+  font-size: 50px;
+  text-align: center;
+  width: auto;
+  padding: 5px;
+}
+
+#students ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 40%;
+}
+
+#students li a {
+  display: block;
+}
+
+#teachers ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 40%;
+}
+
+#teachers li a {
+  display: block;
+}
+
+#college ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 40%;
+}
+
+#college li a {
+  display: block;
+}
+
+#important {
+  margin-bottom: 15px;
+}
+
+#invLinks {
+  text-align: center;  
+}
